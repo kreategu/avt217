@@ -1,0 +1,35 @@
+body{
+
+	background-color: #FFFAFA;
+}
+
+
+.title{
+    position: relative;
+	left: 40px;
+	font-family: 'Playfair Display SC', serif;
+	color: #FF4500;
+
+}
+.subtitle{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+    color: 	#6B8E23;
+}
+h1{
+	font-size: 40px;
+}
+
+p{
+	line-height: 1.4;
+	position: absolute;
+    top: 260px;
+    right: 40px;
+    width: 600px;
+    height: 200px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #708090;
+
+}

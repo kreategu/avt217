@@ -1,0 +1,51 @@
+body{
+
+	
+}
+
+
+.title{
+    margin-top: 130px;
+    margin-right: 100px;
+    text-align: right;
+	font-family: 'Cabin Sketch', cursive;
+	color: #DC143C;   
+    font-size: 40px;
+
+}
+.subtitle{
+    text-align: right;
+    margin-right: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    color: #FF4500;
+}
+.sentence{
+    line-height: 1.5;
+    text-align: right;
+	margin-right: 180px;
+    color: #FFA500;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+.sentence1{
+     line-height: 1.5;
+    text-align: right;
+    margin-right: 130px;
+    color: #FFA500;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+p{  position: absolute;
+    top:130px;
+    left: 150px;
+    right:150px;
+    width:350px;  
+	line-height: 1.8;
+    color:  #000000;
+    font-family: 'El Messiri', sans-serif;
+    
+
+}

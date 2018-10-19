@@ -1,0 +1,33 @@
+body{
+
+	background-color:  #F0F8FF;
+    margin: 40px;
+}
+
+
+.title{
+    font-family: 'Mali', cursive;
+	color: #00008B;
+
+}
+.subtitle{
+    text-align: center;
+    margin: 15px;
+    font-family:'Handlee', cursive;
+    font-size: 25px;
+    color: 	#800000;
+}
+h1{
+	font-size: 40px;
+}
+
+p{
+	line-height: 1.6;
+    font-family:'Josefin Slab', serif;
+    color: #000000;
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 3px solid lightblue;
+
+
+}

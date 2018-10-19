@@ -1,0 +1,39 @@
+body{
+
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title{
+    text-align: center;
+	font-family: 'Fredoka One', cursive;
+	color: #f2738c;   
+    font-size: 40px;
+
+}
+.subtitle{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Averia Libre', cursive;
+    font-size: 25px;
+    color: 	#E0FFFF;
+}
+.sentence{
+	margin-left: 70px;
+    color: #E0FFFF;
+    font-family: 'Averia Libre', cursive;
+}
+
+p{
+	line-height: 1.6;
+    margin-left: 70px;
+    margin-right: 470px;
+    color: #4682B4;
+    font-family: 'Poiret One', cursive;
+    background-color:  #FFFFF0;
+
+}
+
+}
+	
