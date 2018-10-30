@@ -1,0 +1,142 @@
+.container{
+	position: absolute;
+	margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+
+}
+
+.cabeza{
+  top: 30px;
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  color: #7FFF00;
+  border-radius: 90%;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
+}
+.ear{
+	position: absolute;
+	color: #7FFF00;
+	top: -5px;
+    left: -2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80% 200% 50% 200%;
+
+
+}
+.inner{
+	position: absolute;
+	color: #FFB6C1;
+
+}
+.earright{
+	position: absolute;
+	color: #7FFF00;
+	transform: translateX(120px);
+
+}
+.innerright{
+	position: absolute;
+	color: #FFB6C1;
+
+}
+.face{
+   position: absolute;
+   color: #7FFF00;
+
+}
+.eye{
+	position: absolute;
+	color: white;
+
+
+}
+.eyeright{
+    position: absolute;
+    color: white;
+
+}
+.snout{
+	position: absolute;
+    color: #32CD32;
+
+}
+.nose{
+	position: absolute;
+	color: black;
+
+
+}
+.bridge{
+	position: absolute;
+	color: black;
+
+
+}
+.mouth{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.paci{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.triangulo{
+	position: absolute;
+	color: black;
+
+
+}
+.body{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.tronco{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.hand{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.handright{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.tail{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+.leg{
+    position: absolute;
+    color: #7FFF00;
+
+}
+.legright{
+	position: absolute;
+	color: #7FFF00;
+
+
+}
+
