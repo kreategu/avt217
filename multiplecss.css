@@ -1,0 +1,25 @@
+#container{
+	width: 75vw;
+	margin: 50px auto;
+}
+
+.headline {
+	width: 50vw;
+	margin: 0 auto;
+}
+
+.leftcol, .rightcol {
+	float: left;
+
+}
+.leftcol{
+	width: calc(100% /2 -25px)
+	margin-right: 25px;
+}
+.rightcol{
+	width: calc(100% /2 -25px)
+	margin-left: 25px;
+}
+img{
+	max-width: 100%;
+}
