@@ -1,0 +1,56 @@
+
+body{
+
+	background-color: black;
+}
+
+.header{
+
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Chewy', cursive;
+}
+.n1{
+padding: 10px;
+text-align: center;
+background-color: orange;
+border: solid 1px orange;
+font-family: 'Delius', cursive;
+font-size: 30px;
+
+}
+.Julia{
+padding: 50px;
+display: none;
+position: relative;
+
+}
+
+.n2{
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Delius', cursive;
+}
+
+.n3{
+	color: purple;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Delius', cursive;
+}
+
+.n4{
+	color: green;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Delius', cursive;
+}
+
+.n5{
+	color: lightblue;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Delius', cursive;
+}
