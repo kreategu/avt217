@@ -1,3 +1,5 @@
+
+/* For smaller desktops: */
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -12,13 +14,10 @@ body{
 }
 #container {
 	width: 110vw;
-    height: 225vw;
-    background-color: blue;
-    
-    
+    height: 175vw;  
 
 }
-.two, .three {
+.two, .three, .four {
 	
 	margin: 30px;
 	float: left;
@@ -42,12 +41,13 @@ body{
     left: 25%;
     color: white;
     font-size: 50px;
+    font-family: 'Playfair Display SC', serif;
 }
 .bodytext{
     
     background-color: #800000;
     width: 110vw;
-    margin: auto;
+    margin-top: -5px;
 
 }
 .content{
@@ -60,11 +60,12 @@ body{
 }
 
 
-.w3-container{
+.responsive{
     float: left;
     width: 100%;
-    max-width: 40%;
-    height: 100%;
+    max-width: 285px;
+    height: auto;
+    position: relative;
  
     
 }
@@ -76,16 +77,14 @@ width: 100%;
  position: relative;
 }
 
-
-.photos{
-margin-left: 80px;
-height: auto;
-width: 50%;
- min-width: 40%;
-
-
+.matureskin{
+bottom: -320px;
+left: -262px;
+color: white;
+position: relative;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
 }
-
 
 .dryskin{
 position: relative;
@@ -93,6 +92,48 @@ text-align: center;
 top: -50px;
 color: white;
  font-size: 25px;
+ font-family: 'Arapey', serif;
+}
+
+.oilyskin{
+position: relative;
+text-align: center;
+top: -50px;
+color: white;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
+}
+.combinationskin{
+position: relative;
+text-align: center;
+top: -50px;
+color: white;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
+}
+.breakoutproneskin{
+position: relative;
+text-align: center;
+top: -50px;
+color: white;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
+}
+.sensitivereactiveskin{
+position: relative;
+text-align: center;
+top: -70px;
+color: white;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
+}
+.resilientskin{
+position: relative;
+text-align: center;
+top: -50px;
+color: white;
+ font-size: 25px;
+ font-family: 'Arapey', serif;
 }
 
 
@@ -103,65 +144,354 @@ margin: 0;
 }
 .one1{
 
-width: 60%;
+width: 40.3%;
 color: orange;
 background-color: beige;
-float: right;
-margin: 0;
+position: absolute;
+margin-top:-28px; 
+margin-left:285px;
+float: left;
+}
+
+.four{
+height: 690px;
+width: 30vw;
+margin-right: 40px; 
+margin-left: 40px;
 
 }
 .two{
  
-height: 730px;
+height: 690px;
 width: 30vw;
-background-color: #800000;
 margin-right: 40px; 
 margin-left: 40px;
 
 }
 .three{
 
-height: 730px;
+height: 690px;
 width: 30vw;
-background-color: #800000;
 margin-right: 40px; 
 margin-left: 40px;
 
 
 }
-h1{
+h3{
 
-
-}
-h2{ 
-text-align: center;
-
-	
-}
-h4{
+margin-bottom: 20px;
 margin-left: 20px;
 font-size: 18px;
-	
+font-family: 'Vidaloka', serif
+
+
+}
+
+h4{
+margin-top: 10px;
+margin-left: 20px;
+font-size: 18px;
+font-family: 'Vidaloka', serif;	
 }
 h6{
 padding: 30px;
 margin-top: 40px;
 font-size: 17px;
 color: #FFEFD5;	
+font-family: 'Nanum Myeongjo', serif;
 }
 
 p{
 margin-left: 30px;
 margin-right: 30px;
-
+font-family: 'Quattrocento', serif;
+font-size: 16px;
     
 }
 
 .title{
 	min-width: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+
+#container {
+	width: 110vw;
+    height: 560vw;
+    
+
+}
+
+.content{
+    width: 45vw;
+}
+.one, .one1, .content {
+	height: 300px;
+	float: left;
+    
+  }
+  .title{
+	max-width: 100%;
+
+}
+
+.center{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 50px;
+}	
+.responsive{
+
+max-width: 225px;
+}
+.photos1{
+
+height: auto;
+width: 100%;
+ min-width: 90%;
+}
+
+.matureskin{
+bottom: -250px;
+left: -222px;
+ font-size: 20px;
+ word-break: break-word;
+
+}
+
+.dryskin{
+top: -50px;
+ font-size: 22px;
+}
+
+.oilyskin{
+top: -50px;
+ font-size: 22px;
+
+}
+.combinationskin{
+top: -50px;
+ font-size: 22px;
+ 
+}
+.breakoutproneskin{
+top: -50px;
+ font-size: 22px;
+}
+.sensitivereactiveskin{
+top: -60px;
+ font-size: 22px;
+}
+.resilientskin{
+top: -50px;
+ font-size: 22px;
+}
+
+.one1{                                
+
+width: 39.5%;
+color: orange;
+margin-top:-23px; 
+margin-left:208px;
+
+}
+
+.two, .three, .four {
+	
+	margin: 20px;
+
+}
+.two{
+ 
+height: 610px;
+width: 40vw;
+margin-right: 20px; 
+margin-left: 70px;
+
+}
+.three{
+
+height: 610px;
+width: 40vw;
+margin-right: 20px; 
+margin-left: 70px;
+}
+.four{
+height: 610px;
+width: 40vw;
+margin-right: 20px; 
+margin-left: 70px;
+
+}
+h6{
+padding: 30px;
+margin-top: 8px;
+font-size: 16px;
+
+}
+
+h3{
+
+margin-bottom: 20px;
+margin-left: 20px;
+font-size: 16px;
+
+}
+p{
+margin-left: 30px;
+margin-right: 30px;
+font-size: 14px;
+   
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+
+#container {
+	width: 110vw;
+    height: 1080vw;
+      
+
+}
+.content{
+    width: 90vw;
+    margin-left: 30px;
+    height: 120px;
+}
+.one, .one1, .content {
+    
+    float: none;
+    height: 120px;
+  }
+.one{
+height: 120px;
+margin-left:-0;
+
+
+
+}
+.one1{                                
+width: 110vw;
+color: orange;
+ height: 290px;
+margin-left:-0;
+ 
+
+}
+  .title{
+    max-width: 100%;
+
+}
+
+.center{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 35px;
+}   
+.responsive{
+margin-left: 100px; 
+margin-top: 120px;
+max-width: 300%;
+}
+.photos1{
+
+height: auto;
+width: 100%;
+ min-width: 90%;
+}
+
+.matureskin{
+bottom: -250px;
+left: -202px;
+ font-size: 20px;
+ word-break: break-word;
+
+}
+
+.dryskin{
+top: -50px;
+ font-size: 25px;
+ left: 30px;
+}
+
+.oilyskin{
+top: -50px;
+ font-size: 25px;
+left: 30px;
+}
+.combinationskin{
+top: -50px;
+ font-size: 25px;
+ left: 20px;
+}
+.breakoutproneskin{
+top: -50px;
+ font-size: 25px;
+ left:10px;
+}
+.sensitivereactiveskin{
+top: -70px;
+ font-size: 25px;
+ left: 10px;
+}
+.resilientskin{
+top: -50px;
+left: 20px;
+ font-size: 25px;
 }
 
 
+.two, .three, .four {
+    
+    margin: 0;
 
+}
+.two{
+ 
+height: 630px;
+width: 90vw;
+margin-right: 45px; 
+margin-left: 45px;
+margin-bottom: 50px;
+}
+.three{
 
+height: 630px;
+width: 90vw;
+margin-right: 45px; 
+margin-left: 45px;
+margin-bottom: 50px;
+}
+.four{
+height: 630px;
+width:90vw;
+margin-right: 45px; 
+margin-left: 45px;
+margin-top: 55%;
+margin-bottom: 50px;
+}
 
+h6{
+padding: 25px;
+margin-top: -5px;
+font-size: 16px;
+
+}
+
+h3{
+
+margin-bottom: 20px;
+margin-left: 20px;
+font-size: 16px;
+
+}
+p{
+margin-left: 10;
+margin-right: 10;
+font-size: 16px;
+   
+}
