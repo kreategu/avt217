@@ -25,7 +25,7 @@ $(document).ready(function(){
 
         });
 
-    $("button").click(function(){
+    $(".n5").click(function(){
         $(".oculus")
             .slideUp(1000)
             .slideDown(1000);
