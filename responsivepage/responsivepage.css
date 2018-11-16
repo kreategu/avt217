@@ -359,12 +359,12 @@ font-size: 14px;
 .content{
     width: 90vw;
     margin-left: 30px;
-    height: 120px;
+    height: 140px;
 }
 .one, .one1, .content {
     
     float: none;
-    height: 120px;
+    height: 140px;
   }
 .one{
 height: 120px;
@@ -376,7 +376,7 @@ margin-left:-0;
 .one1{                                
 width: 110vw;
 color: orange;
- height: 290px;
+ height: 296px;
 margin-left:-0;
  
 
@@ -389,7 +389,7 @@ margin-left:-0;
 .center{
     position: absolute;
     top: 60%;
-    left: 25%;
+    left: 5%;
     font-size: 35px;
 }   
 .responsive{
@@ -456,7 +456,7 @@ height: 630px;
 width: 90vw;
 margin-right: 45px; 
 margin-left: 45px;
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
 .three{
 
@@ -464,15 +464,15 @@ height: 630px;
 width: 90vw;
 margin-right: 45px; 
 margin-left: 45px;
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
 .four{
 height: 630px;
 width:90vw;
 margin-right: 45px; 
 margin-left: 45px;
-margin-top: 55%;
-margin-bottom: 50px;
+margin-top: 70%;
+margin-bottom: 40px;
 }
 
 h6{
