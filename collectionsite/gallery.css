@@ -1,0 +1,404 @@
+/* For smaller desktops: */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  background-color: black;
+  
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: lightcoral;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+body{
+	margin-left:50px;
+	margin-right: 40px;
+	background-image: url("dots.jpg");
+    background-repeat:repeat;
+}
+
+
+
+#container {
+    margin: 0 auto;
+    width: 888px;
+    height: 175vw;
+}
+
+.headline{
+background-color: white;
+ margin: 0;
+ width: 100vw;
+
+}
+
+h1{
+
+text-align: center;
+color:  black;
+font-family: 'Paytone One', sans-serif;
+ font-size: 80px;
+
+}
+p{
+
+margin-left: 30px;
+margin-right: 30px;
+font-family: 'Niramit', sans-serif;
+font-size: 22px;
+padding: 5px;
+}
+.box1 {
+    margin: 30px;
+    padding-left: 20px; 
+    width: 100vw;
+    float: left;
+    height: 130vw;
+}
+
+
+.box2, .box4, .box6 {
+    height: 250px;
+    float: left;
+    width: 450px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.box2b, .box4b, .box6b {
+    height: 250px;
+    float: left;
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+ .box3, .box5 {
+    height: 250px;
+    float: left;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    margin-bottom: 30px;
+    position: relative;
+}
+
+ .box3b, .box5b {
+    height: 250px;
+    float: left;
+    width: 450px; 
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.img1{
+
+	width:450px; 
+	height:250px;
+}
+
+.img2{
+
+	width:250px; 
+	height:250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.85;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.box2:hover .overlay, .box4:hover .overlay, .box6:hover .overlay, .box3b:hover .overlay,
+ .box5b:hover .overlay   {
+  width: 450px;
+  height: 250px;
+}
+
+.box2b:hover .overlay, .box4b:hover .overlay, .box6b:hover .overlay, .box3:hover .overlay,
+ .box5:hover .overlay   {
+  width: 250px;
+  height: 250px;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+
+    body{
+	margin-left:50px;
+	margin-right: 40px;
+	
+}
+#container {
+    width: 100vw;
+    height: 175vw;
+}
+
+.headline{
+background-color: white;
+ opacity: 0.9;
+ margin: 0;
+ width: 100vw;
+
+}
+
+
+.box1 {
+    margin: 5px;
+    width: 100vw;
+    float: left;
+    height: 130vw;
+}
+
+
+.box2, .box4, .box6 {
+    height: 220px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.box2b, .box4b, .box6b {
+    height: 220px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+ .box3, .box5 {
+    height: 220px;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 0; 
+    margin-bottom: 0;
+    position: relative;
+}
+
+ .box3b, .box5b {
+    height: 220px;
+    float: left;
+    width: 300px;
+    margin-left: -80px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.img1{
+
+	width:300px; 
+	height:200px;
+}
+
+.img2{
+
+	width:200px; 
+	height:200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.85;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.box2:hover .overlay, .box4:hover .overlay, .box6:hover .overlay, .box3b:hover .overlay,
+ .box5b:hover .overlay   {
+  width: 300px;
+  height: 200px;
+}
+
+.box2b:hover .overlay, .box4b:hover .overlay, .box6b:hover .overlay, .box3:hover .overlay,
+ .box5:hover .overlay   {
+  width: 200px;
+  height: 200px;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+}
+
+@media only screen and (max-width: 568px) {
+    /* For mobile: */
+
+body{
+  margin-left:0;
+  margin-right: 0;
+  
+}
+#container {
+    width: 47vw;
+    height: 175vw;
+}
+
+.headline{
+background-color: white;
+ opacity: 0.9;
+ margin: 0;
+ width: 100vw;
+
+}
+
+
+.box1 {
+    margin: 3vw;
+    width: 70vw;
+    float: 0;
+    height: 130vw;
+}
+
+
+.box2, .box4, .box6 {
+    height: 220px;
+    width: 300px;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.box2b, .box4b, .box6b {
+    height: 220px;
+    float: 0;
+    width: 400px;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+ .box3, .box5 {
+    height: 220px;
+    float: 0;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: 0;
+    position: relative;
+}
+
+ .box3b, .box5b {
+    height: 220px;
+    float: 0;
+    width: 400px;
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.img1{
+
+  width:375px; 
+  /*height:475px; */
+}
+
+.img2{
+
+  width:375px; 
+  /*height:475px; */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.85;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.box2:hover .overlay, .box4:hover .overlay, .box6:hover .overlay, .box3b:hover .overlay,
+ .box5b:hover .overlay   {
+  width: 375px;
+  height: 200px;
+}
+
+.box2b:hover .overlay, .box4b:hover .overlay, .box6b:hover .overlay, .box3:hover .overlay,
+ .box5:hover .overlay   {
+  width: 375px;
+  height: 200px;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+}
+
